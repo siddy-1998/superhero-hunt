@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Superhero</title>
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <a href="index.html">SuperheroJS</a>
+        </div>
+        <div class="right">
+            <a href="favourites.html" class="link">Favourites</a>
+        </div>
+    </nav>
+
+    <main id="main">
+        <input type="search" id="search" placeholder="Search a Superhero..." autocomplete="off" />
+        <div class="loader"></div>
+
+        <ul id="search-results-list">
+            <!-- <li class="search-result">
+          <div class="search-left">
+            <img src="/images/bats.jpg" alt="" />
+          </div>
+          <div class="search-right">
+            <div class="name">Batman</div>
+            <div class="full-name">Terry McGinnis</div>
+            <div class="address">Gotham City, 25th Century</div>
+            <button class="btn add-to-fav">Add to favourites</button>
+            <button class="btn remove-from-fav">Remove from favourites</button>
+          </div>
+        </li> -->
+        </ul>
+    </main>
+    <div id="toast"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        Main.init();
+    </script>
+</body>
+
+</html>
